@@ -1,4 +1,4 @@
- function createPromise(promiseNumber) {
+ function createPromise() {
             const randomTime = Math.random() * 2 + 1; // 1 to 3 seconds
             
             return new Promise((resolve) => {
