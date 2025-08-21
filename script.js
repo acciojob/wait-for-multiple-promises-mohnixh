@@ -12,9 +12,9 @@
         const startTime = performance.now();
 
         // Create the 3 promises
-        const promise1 = createPromise(1);
-        const promise2 = createPromise(2);
-        const promise3 = createPromise(3);
+        const promise1 = createPromise();
+        const promise2 = createPromise();
+        const promise3 = createPromise();
 
         // Use Promise.all() to wait for all promises
         Promise.all([promise1, promise2, promise3])
